@@ -1,34 +1,80 @@
 # TIME Action Tracking System
 ## Introduction
-TIME is an action tracking system arms to help people build their own schedule. 
+
+TIME is an action tracking system aims to help people build their own schedule. Essentially, it's a Wordpress plugin developed by PHP, Javascript, CSS and HTML5.  
+
+## Environment
 
 
 # What TIME can do now?
 ## Action Tracking
+It can handle **four** kinds of entries now, action, project, meeting and calendar. All of them supports to be Created, Updated, Deleted and Retrieved. 
+
 ## Generate Report
+There's sub-system known as Report which used to generate various of report based on filters. There are differnet kinds of filters:
+1. **Based on parameters**: begin,end,create,end time, risk level and progress of an action, create time of a project, create time of a meeting and calendar entry.
+2. **Based on time scale**: time scale is the unit to partition x-axis. Year, quarter, month are supported.
+3. **Based on chart type**: Line, Bar, Area, column and Pie chart are supported.
+4. **Based on time range**: determine the minimum and maximum of time you would like to display on the chart. 
+5. If progress is chosen as the parameter, then a filter **based on progress scale** can be used to determine how to partition the progress. 
+
+
 ## Custom Configuration
+I intended to provide users a highly custom environment to make them comfortable, there would be different configurations for each individual user stored on the server side. For now, only one configuration is supported, which is they way to display **risk type**. A user can configure it in "menu"->"setting"->"Risk Type".
+
+
 ## Import/Export Process
+Import and Export process are supported based on a well formatted XML file. Try it in "menu"->"setting"->"Template".
+
+
 
 # What's next?
+
 ## Bug Tracing
+The current version will have bugs after being tested by users (mostly my friends). All bugs will be recorded in [bug])().
+
 
 ## Keep Optimizing
+Except bugs, there are also details need to be improved. Without these details will not fault the system, but they make the system more user-friendly and easier to use. A list here:
+* 
+
+See more in [optimize]().
+
 
 ## New Features
-I do have some new ideas on this project. Since a new semester is coming, all things will become 
 
-#	Run my own TIME
-Some simple steps are needed if you want to build TIME on your own Wordpress site.
-## Step 1
-## Step 2
+I do have some new ideas on this project. Since a new semester is coming, I may not have enough time to do it. I will list them here in case that I get time in the future.
+* Group/Team features, to provide service for a team including more than one user. They share their actions to cooperate with each other. 
+
+See more in [new]()
+
+
+# Run my own TIME
+Four simple steps are needed if you want to build TIME on your own Wordpress site.
+
+* Step 1: Build a pure wordpress site and make it work.
+* Step 2: Choose **Twenty fifteen**(I used version 1.5, updated version should be fine as well) as your theme.
+* Step 3: Install another simple plugin and activate it, then add the content of [this file]() to overwirte the orginial style of the theme. 
+* Step 4: Install TIME, activate it and enjoy it.
+
+I learned later that child theme can be used to overwrite the style of default theme, but I don't have time to rewrite it.
 
 # About this project
 ## The Origin
 The whole thing origins from the spring of 2016 on a course of database. Students are required by their professor to build this action tracking system based on MySQL. However, the project failed in the end for some reasons. Later, I felt it's pity to abandon this half-finished project. So I tried to restart it by myself.
 
 ## The Author
-The author named Ethan is a master degree student of George Washington University.
+* [than Huang](http://journal.ethanshub.com ), a master student in George Washington University.
 
+
+# Support
+
+If you are having problems, send a mail to [huangyitian@gwu.edu](huangyitian@gwu.edu).
+
+# License
+
+All contents of this package are licensed under the [MIT license]().
 
 **Ethan Huang**
+
 **August 29th, 2016**
