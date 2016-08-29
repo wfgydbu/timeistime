@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<time>
+	<!--- Part 1: A project contains one or more actions -->
+	<project>
+		<project_name>AAAA</project_name>
+		<project_creator>yitian</project_creator>
+		<project_create_time>2018-08-22 09:46</project_create_time>
+		<project_description>AAAA</project_description>
+		<children>
+			<!--- The actions under children directory will be considered as the children of this project -->
+			<action>
+				<action_name>aaaa</action_name>
+				<action_creator>yitian</action_creator>
+				<action_create_time>2018-08-22 09:46</action_create_time>
+				<action_begin_time>2018-08-22 09:46</action_begin_time>
+				<action_end_time>2018-08-22 09:46</action_end_time>
+				<action_finish_time>2018-08-22 09:46</action_finish_time>
+				<action_risk>1</action_risk>
+				<action_progress>20</action_progress>
+				<action_location>DC</action_location>
+				<action_description>aaaa</action_description>
+				<!--- Not support this field Now:<action_prerequisite_task_id> -->
+			</action>
+			<action>
+				<action_name>bbbb</action_name>
+				<action_creator>yitian</action_creator>
+				<action_create_time>2018-08-22 09:46</action_create_time>
+				<action_begin_time>2018-08-22 09:46</action_begin_time>
+				<action_end_time>2018-08-22 09:46</action_end_time>
+				<action_finish_time>2018-08-22 09:46</action_finish_time>
+				<action_risk>1</action_risk>
+				<action_progress>20</action_progress>
+				<action_location>DC</action_location>
+				<action_description>bbbb</action_description>
+				</action>			
+		</children>
+	</project>
+
+	<!--- Part 2: Individual project(s) -->
+	<project>
+		<project_name>BBBB</project_name>
+		<project_creator>yitian</project_creator>
+		<project_create_time>2018-08-22 09:46</project_create_time>
+		<project_description>BBBB</project_description>
+	</project>
+
+	<!--- Part 3: Individual action(s) -->
+	<action>
+		<action_name>cccc</action_name>
+		<action_creator>yitian</action_creator>
+		<action_create_time>2018-08-22 09:46</action_create_time>
+		<action_begin_time>2018-08-22 09:46</action_begin_time>
+		<action_end_time>2018-08-22 09:46</action_end_time>
+		<action_finish_time>2018-08-22 09:46</action_finish_time>
+		<action_risk>1</action_risk>
+		<action_progress>20</action_progress>
+		<action_location>DC</action_location>
+		<action_description>cccc</action_description>
+	</action>
+	
+	<!--- Part 4: Meeting Entries -->
+	<meeting>
+		<meeting_creator>yitian</meeting_creator>
+		<meeting_time>2018-08-22 09:46</meeting_time>
+		<meeting_topic>DDDD</meeting_topic>
+		<meeting_note>DDDD</meeting_note>
+	</meeting>	
+	
+	<!--- Part 5: Calendar Entries -->
+	<calendar>
+		<calendar_creator>yitian</calendar_creator>
+		<calendar_time>2018-08-22 09:46</calendar_time>
+		<calendar_topic>EEEE</calendar_topic>
+		<calendar_note>EEEE</calendar_note>
+	</calendar>	
+</time>
