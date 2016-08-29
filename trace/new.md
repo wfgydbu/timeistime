@@ -1,0 +1,2 @@
+* Group/Team features, to provide service for a team including more than one user. They share their actions to cooperate with each other. 
+* Special calendar or meeting entries. E.g. Users want to add a new meeting entry for every Monday in the next 6 weeks.

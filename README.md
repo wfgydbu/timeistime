@@ -65,7 +65,7 @@ I learned later that child theme can be used to overwrite the style of default t
 The whole thing origins from the Spring of 2016 on a course of database. Students are required by their professor to build this action tracking system based on Wordpress(MySQL as the backend database). However, the project failed in the end for some reasons. Later, I felt it's a pity to abandon this half-finished project. So I tried to restart it by myself in the summer.
 
 ## The Author
-* [than Huang](http://journal.ethanshub.com ), a master student in George Washington University.
+* [Ethan Huang](http://journal.ethanshub.com ), a master student in George Washington University.
 
 
 # Support
