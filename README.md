@@ -36,7 +36,7 @@ Import and Export process are supported based on a well formatted XML file. Try 
 # What's next?
 
 ## Bug Tracing
-The current version will have bugs after being tested by users (mostly my friends). All bugs will be recorded in [bug](https://github.com/wfgydbu/timeistime/blob/eb85357d82e0122aee3d9ad929fcdbe4f6283f11/trace/bug.md) .
+The current version will have bugs after being tested by users (mostly my friends). All bugs will be recorded in [bug](https://github.com/wfgydbu/timeistime/blob/master/trace/bug.md).
 
 
 ## Keep Optimizing
@@ -46,7 +46,7 @@ Except bugs, there are also details need to be improved. Without these details w
 * Filters for table views
 * After user CRUDing, auto-refreshing the father window. 
 * In calendar view, contents aren't displayed completely.
-* See more in [optimize](https://github.com/wfgydbu/timeistime/blob/eb85357d82e0122aee3d9ad929fcdbe4f6283f11/trace/optimize.md) .
+* See more in [optimize](https://github.com/wfgydbu/timeistime/blob/master/trace/optimize.md).
 
 
 ## New Features
@@ -54,7 +54,7 @@ Except bugs, there are also details need to be improved. Without these details w
 I do have some new ideas on this project. Since a new semester is coming, I may not have enough time to do it. I will list them here in case that I get time in the future.
 * Group/Team features, to provide service for a team including more than one user. They share their actions to cooperate with each other. 
 * Special calendar or meeting entries. E.g. Users want to add a new meeting entry for every Monday in the next 6 weeks.
-* See more in [new](https://github.com/wfgydbu/timeistime/blob/eb85357d82e0122aee3d9ad929fcdbe4f6283f11/trace/new.md) .
+* See more in [new](https://github.com/wfgydbu/timeistime/blob/master/trace/new.md).
 
 
 # Run my own TIME
@@ -73,6 +73,10 @@ The whole thing origins from the Spring of 2016 on a course of database. Student
 
 ## The Author
 * [Ethan Huang](http://journal.ethanshub.com ), a master student in George Washington University.
+
+## Thanks
+* Thanks to Professor David for providing the server to me so I can release the site on the Internet.
+* Thanks to Adam Yang and Zhe Yang for testing work during my development.
 
 
 # Support
