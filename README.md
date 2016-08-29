@@ -4,6 +4,7 @@
 TIME is an action tracking system aims to help people build their own schedule. Essentially, it's a Wordpress plugin developed by PHP, Javascript, CSS and HTML5.  
 
 ## Environment
+There are nothing needed except a Wordpress environment.
 
 
 # What TIME can do now?
@@ -11,7 +12,7 @@ TIME is an action tracking system aims to help people build their own schedule. 
 It can handle **four** kinds of entries now, action, project, meeting and calendar. All of them supports to be Created, Updated, Deleted and Retrieved. 
 
 ## Generate Report
-There's sub-system known as Report which used to generate various of report based on filters. There are differnet kinds of filters:
+There's sub-system known as Report which used to generate various of report based on filters. There are different kinds of filters:
 * **Based on parameters**: begin,end,create,end time, risk level and progress of an action, create time of a project, create time of a meeting and calendar entry.
 *  **Based on time scale**: time scale is the unit to partition x-axis. Year, quarter, month are supported.
 *  **Based on chart type**: Line, Bar, Area, column and Pie chart are supported.
