@@ -4,12 +4,12 @@
 TIME is an action tracking system aims to help people build their own schedule. Essentially, it's a Wordpress plugin developed by PHP, Javascript, CSS and HTML5.  
 
 ## Environment
-There are nothing needed except a Wordpress environment.
+Nothing more is needed except a Wordpress environment.
 
 
 # What TIME can do now?
 ## Action Tracking
-It can handle **four** kinds of entries now, action, project, meeting and calendar. All of them supports to be Created, Updated, Deleted and Retrieved. 
+This system is able to handle four kinds of entries now, action, project, meeting and calendar. All of them support to be Created, Updated, Deleted and Retrieved with different property.  
 
 ## Generate Report
 There's sub-system known as Report which used to generate various of report based on filters. There are different kinds of filters:
@@ -19,9 +19,13 @@ There's sub-system known as Report which used to generate various of report base
 *  **Based on time range**: determine the minimum and maximum of time you would like to display on the chart. 
 *  If progress is chosen as the parameter, then a filter **based on progress scale** can be used to determine how to partition the progress. 
 
+Try it in "menu"->"report".
+
 
 ## Custom Configuration
-I intended to provide users a highly custom environment to make them comfortable, there would be different configurations for each individual user stored on the server side. For now, only one configuration is supported, which is they way to display **risk type**. A user can configure it in "menu"->"setting"->"Risk Type".
+I intended to provide users a highly custom environment to make them comfortable, there would be different configurations for each individual user stored on the server side. For now, only one configuration is supported, which is they way to display **risk type**. 
+
+Try in "menu"->"setting"->"Risk Type".
 
 
 ## Import/Export Process
@@ -32,22 +36,25 @@ Import and Export process are supported based on a well formatted XML file. Try 
 # What's next?
 
 ## Bug Tracing
-The current version will have bugs after being tested by users (mostly my friends). All bugs will be recorded in [bug](https://github.com/wfgydbu/timeistime/blob/eb85357d82e0122aee3d9ad929fcdbe4f6283f11/trace/bug.md).
+The current version will have bugs after being tested by users (mostly my friends). All bugs will be recorded in [bug](https://github.com/wfgydbu/timeistime/blob/eb85357d82e0122aee3d9ad929fcdbe4f6283f11/trace/bug.md) .
 
 
 ## Keep Optimizing
 Except bugs, there are also details need to be improved. Without these details will not fault the system, but they make the system more user-friendly and easier to use. A list here:
-* 
-
-See more in [optimize](https://github.com/wfgydbu/timeistime/blob/eb85357d82e0122aee3d9ad929fcdbe4f6283f11/trace/optimize.md).
+* A new button in reregistration form to verify if the current user name has been used by others.
+* All information will be reset after the submit button is clicked. Even if some information is incorrect and users have to re-type all information once more.
+* Filters for table views
+* After user CRUDing, auto-refreshing the father window. 
+* In calendar view, contents aren't displayed completely.
+* See more in [optimize](https://github.com/wfgydbu/timeistime/blob/eb85357d82e0122aee3d9ad929fcdbe4f6283f11/trace/optimize.md) .
 
 
 ## New Features
 
 I do have some new ideas on this project. Since a new semester is coming, I may not have enough time to do it. I will list them here in case that I get time in the future.
 * Group/Team features, to provide service for a team including more than one user. They share their actions to cooperate with each other. 
-
-See more in [new](https://github.com/wfgydbu/timeistime/blob/eb85357d82e0122aee3d9ad929fcdbe4f6283f11/trace/new.md)
+* Special calendar or meeting entries. E.g. Users want to add a new meeting entry for every Monday in the next 6 weeks.
+* See more in [new](https://github.com/wfgydbu/timeistime/blob/eb85357d82e0122aee3d9ad929fcdbe4f6283f11/trace/new.md) .
 
 
 # Run my own TIME
