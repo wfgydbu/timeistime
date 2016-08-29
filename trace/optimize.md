@@ -3,3 +3,4 @@
 * Filters for table views
 * After user CRUDing, auto-refreshing the father window. 
 * In calendar view, contents aren't displayed completely.
+* The touch area isn't disabled when user focus on the input area, which causing the label blinked.
